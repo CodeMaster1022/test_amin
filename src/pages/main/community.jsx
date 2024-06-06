@@ -7,7 +7,7 @@ import MarkersPopups from 'sections/maps/MarkersPopups';
 import { countries } from 'data/location';
 import { setTabNumber } from 'redux/mapRelated/mapSlice';
 // data set
-import sask from '../main/map/province/dataSet/Sask.json';
+// import sask from '../main/map/province/dataSet/Sask.json';
 import alberta from '../main/map/province/dataSet/alberta.json';
 import ontario from '../main/map/province/dataSet/Ontario.json';
 import manitoba from '../main/map/province/dataSet/Manitoba.json';
@@ -39,8 +39,8 @@ function getProvince(index) {
   switch (index) {
     case 'Alberta':
       return <AlbertaMap regionName={alberta} regionFlag="alberta" />;
-    case 'Sask':
-      return <AlbertaMap regionName={sask} regionFlag="Sask" />;
+    // case 'Sask':
+      // return <AlbertaMap regionName={sask} regionFlag="Sask" />;
     case 'Yukon':
       return <AlbertaMap regionName={yukon} regionFlag="Yukon" />;
     // case 'Nunavut':
