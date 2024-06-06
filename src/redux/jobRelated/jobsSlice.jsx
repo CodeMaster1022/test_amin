@@ -8,7 +8,6 @@ const initialState = {
   has_more: false,
   tablePage: 1,
   items_per_page: 10,
-  loading: false,
   subloading: false,
   error: 'This is error',
   response: null,
